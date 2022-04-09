@@ -5,13 +5,15 @@ VisualStudioVersion = 17.1.32210.238
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "strategy", "strategy", "{7703B21C-1E9C-43DD-9F63-D0019A09FA5C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MiniDuckSimulator", "MiniDuckSimulator\MiniDuckSimulator.csproj", "{25689527-6A56-4162-8232-54A61B60EAC8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MiniDuckSimulator", "strategy\MiniDuckSimulator\MiniDuckSimulator.csproj", "{25689527-6A56-4162-8232-54A61B60EAC8}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "observer", "observer", "{A18EA79C-0467-4961-8E9E-87BADF104F5D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WeatherStation", "WeatherStation\WeatherStation.csproj", "{C9EB45CB-DEB8-46EF-BB1A-A3E5C290F346}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WeatherStation", "observer\WeatherStation\WeatherStation.csproj", "{C9EB45CB-DEB8-46EF-BB1A-A3E5C290F346}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherStation.Observable", "WeatherStation.Observable\WeatherStation.Observable.csproj", "{94925243-6E41-4A72-ABC0-999B9194DE04}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherStation.Observable", "observer\WeatherStation.Observable\WeatherStation.Observable.csproj", "{94925243-6E41-4A72-ABC0-999B9194DE04}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "decorator", "decorator", "{26AE79CB-3C56-4103-A2A7-81D076C2FC64}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
