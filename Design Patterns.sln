@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MiniDuckSimulator", "MiniDu
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "observer", "observer", "{A18EA79C-0467-4961-8E9E-87BADF104F5D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherStation", "WeatherStation\WeatherStation.csproj", "{C9EB45CB-DEB8-46EF-BB1A-A3E5C290F346}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WeatherStation", "WeatherStation\WeatherStation.csproj", "{C9EB45CB-DEB8-46EF-BB1A-A3E5C290F346}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherStation.Observable", "WeatherStation.Observable\WeatherStation.Observable.csproj", "{94925243-6E41-4A72-ABC0-999B9194DE04}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,6 +27,10 @@ Global
 		{C9EB45CB-DEB8-46EF-BB1A-A3E5C290F346}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C9EB45CB-DEB8-46EF-BB1A-A3E5C290F346}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C9EB45CB-DEB8-46EF-BB1A-A3E5C290F346}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94925243-6E41-4A72-ABC0-999B9194DE04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94925243-6E41-4A72-ABC0-999B9194DE04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94925243-6E41-4A72-ABC0-999B9194DE04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94925243-6E41-4A72-ABC0-999B9194DE04}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,6 +38,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{25689527-6A56-4162-8232-54A61B60EAC8} = {7703B21C-1E9C-43DD-9F63-D0019A09FA5C}
 		{C9EB45CB-DEB8-46EF-BB1A-A3E5C290F346} = {A18EA79C-0467-4961-8E9E-87BADF104F5D}
+		{94925243-6E41-4A72-ABC0-999B9194DE04} = {A18EA79C-0467-4961-8E9E-87BADF104F5D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EF99EADC-987C-44EB-94A2-2640E2118059}

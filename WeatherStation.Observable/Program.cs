@@ -1,11 +1,11 @@
-﻿using WeatherStation.Observers;
-using WeatherStation.Subjects;
+﻿using WeatherStation.Observable.Observers;
+using WeatherStation.Observable.Subjects;
 
-namespace WeatherStation
+namespace WeatherStation.Observable
 {
-    internal static class Program
+    public static class Program
     {
-        static void Main()
+        public static void Main()
         {
             WeatherData weatherData = new();
 
@@ -16,9 +16,9 @@ namespace WeatherStation
             HeatIndexDisplay heatIndexDisplay = new(weatherData);
 #pragma warning restore IDE0059 // Unnecessary assignment of a value
 
-            weatherData.SetMeasurements(80, 65, 30.4D);
-            weatherData.SetMeasurements(82, 70, 29.2D);
-            weatherData.SetMeasurements(78, 90, 29.2D);
+            weatherData.SetMeasurements(80, 65, 30.4d);
+            weatherData.SetMeasurements(82, 70, 29.2d);
+            weatherData.SetMeasurements(78, 90, 29.2d);
         }
     }
 }
