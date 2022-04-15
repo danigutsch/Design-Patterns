@@ -17,6 +17,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "decorator", "decorator", "{
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StarbuzzCoffee", "decorator\StarbuzzCoffee\StarbuzzCoffee.csproj", "{53729DE7-39B5-44E2-A409-A81805249DAE}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "factory", "factory", "{44323E39-0F35-4552-A26E-BA8D509550CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzaStoreSimpleFactory", "factory\PizzaStoreSimpleFactory\PizzaStoreSimpleFactory.csproj", "{FCDF9CE0-6CB9-4558-921D-24C954C65F31}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,10 @@ Global
 		{53729DE7-39B5-44E2-A409-A81805249DAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{53729DE7-39B5-44E2-A409-A81805249DAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{53729DE7-39B5-44E2-A409-A81805249DAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCDF9CE0-6CB9-4558-921D-24C954C65F31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCDF9CE0-6CB9-4558-921D-24C954C65F31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCDF9CE0-6CB9-4558-921D-24C954C65F31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCDF9CE0-6CB9-4558-921D-24C954C65F31}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -48,6 +56,7 @@ Global
 		{C9EB45CB-DEB8-46EF-BB1A-A3E5C290F346} = {A18EA79C-0467-4961-8E9E-87BADF104F5D}
 		{94925243-6E41-4A72-ABC0-999B9194DE04} = {A18EA79C-0467-4961-8E9E-87BADF104F5D}
 		{53729DE7-39B5-44E2-A409-A81805249DAE} = {26AE79CB-3C56-4103-A2A7-81D076C2FC64}
+		{FCDF9CE0-6CB9-4558-921D-24C954C65F31} = {44323E39-0F35-4552-A26E-BA8D509550CC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EF99EADC-987C-44EB-94A2-2640E2118059}
