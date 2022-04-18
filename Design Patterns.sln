@@ -37,7 +37,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleRemoteControl", "comm
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RemoteControl", "command\RemoteControl\RemoteControl.csproj", "{1134FC4F-198D-4B39-8506-827E9E9F265B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoteControlWithUndo", "command\RemoteControlWithUndo\RemoteControlWithUndo.csproj", "{5AB14AA5-C163-47FB-8C95-09446CD2687E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RemoteControlWithUndo", "command\RemoteControlWithUndo\RemoteControlWithUndo.csproj", "{5AB14AA5-C163-47FB-8C95-09446CD2687E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Party", "command\Party\Party.csproj", "{1555304F-86B0-4754-BFEC-040B3474B161}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +95,10 @@ Global
 		{5AB14AA5-C163-47FB-8C95-09446CD2687E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5AB14AA5-C163-47FB-8C95-09446CD2687E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5AB14AA5-C163-47FB-8C95-09446CD2687E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1555304F-86B0-4754-BFEC-040B3474B161}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1555304F-86B0-4754-BFEC-040B3474B161}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1555304F-86B0-4754-BFEC-040B3474B161}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1555304F-86B0-4754-BFEC-040B3474B161}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -110,6 +116,7 @@ Global
 		{11260566-F196-4C2D-A309-539B06E54824} = {CB868F12-F745-4EA9-95AF-09F1BFCCAD1C}
 		{1134FC4F-198D-4B39-8506-827E9E9F265B} = {CB868F12-F745-4EA9-95AF-09F1BFCCAD1C}
 		{5AB14AA5-C163-47FB-8C95-09446CD2687E} = {CB868F12-F745-4EA9-95AF-09F1BFCCAD1C}
+		{1555304F-86B0-4754-BFEC-040B3474B161} = {CB868F12-F745-4EA9-95AF-09F1BFCCAD1C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EF99EADC-987C-44EB-94A2-2640E2118059}
