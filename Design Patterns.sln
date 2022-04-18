@@ -37,7 +37,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleRemoteControl", "comm
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RemoteControl", "command\RemoteControl\RemoteControl.csproj", "{1134FC4F-198D-4B39-8506-827E9E9F265B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoteControlWithUndo", "RemoteControlWithUndo\RemoteControlWithUndo.csproj", "{5AB14AA5-C163-47FB-8C95-09446CD2687E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoteControlWithUndo", "command\RemoteControlWithUndo\RemoteControlWithUndo.csproj", "{5AB14AA5-C163-47FB-8C95-09446CD2687E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
