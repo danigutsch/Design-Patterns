@@ -1,5 +1,4 @@
-﻿using RemoteControl.Commands;
-using RemoteControl.Receivers;
+﻿using RemoteControl.Receivers;
 
 namespace RemoteControl.Commands
 {
