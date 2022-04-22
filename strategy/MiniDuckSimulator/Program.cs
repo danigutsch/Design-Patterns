@@ -1,5 +1,5 @@
-﻿using MiniDuckSimulator.Ducks;
-using MiniDuckSimulator.Behaviors;
+﻿using MiniDuckSimulator.Behaviors;
+using MiniDuckSimulator.Ducks;
 
 namespace MiniDuckSimulator
 {

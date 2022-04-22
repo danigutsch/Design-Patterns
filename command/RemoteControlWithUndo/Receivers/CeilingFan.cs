@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace RemoteControlWithUndo.Receivers
+﻿namespace RemoteControlWithUndo.Receivers
 {
     public class CeilingFan
     {

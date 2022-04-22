@@ -1,5 +1,4 @@
-﻿using RemoteControlWithUndo.Commands;
-using RemoteControlWithUndo.Receivers;
+﻿using RemoteControlWithUndo.Receivers;
 
 namespace RemoteControlWithUndo.Commands
 {

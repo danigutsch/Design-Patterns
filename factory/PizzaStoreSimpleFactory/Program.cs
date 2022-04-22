@@ -1,5 +1,4 @@
-﻿using System;
-using PizzaStoreSimpleFactory.Pizzas;
+﻿using PizzaStoreSimpleFactory.Pizzas;
 using PizzaStoreSimpleFactory.SimpleFactories;
 
 namespace PizzaStoreSimpleFactory

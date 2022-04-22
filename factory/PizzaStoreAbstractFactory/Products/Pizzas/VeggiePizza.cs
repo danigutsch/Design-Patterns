@@ -1,5 +1,4 @@
-﻿using System;
-using PizzaStoreAbstractFactory.AbstractFactories;
+﻿using PizzaStoreAbstractFactory.AbstractFactories;
 
 namespace PizzaStoreAbstractFactory.Products.Pizzas
 {

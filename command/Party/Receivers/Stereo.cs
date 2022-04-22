@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace Party.Receivers
+﻿namespace Party.Receivers
 {
     public class Stereo
     {

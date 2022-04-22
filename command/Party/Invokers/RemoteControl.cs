@@ -1,5 +1,5 @@
-﻿using System.Text;
-using Party.Commands;
+﻿using Party.Commands;
+using System.Text;
 
 namespace Party.Invokers
 {
@@ -47,7 +47,7 @@ namespace Party.Invokers
 
         public override string ToString()
         {
-            var stringBuilder= new StringBuilder();
+            var stringBuilder = new StringBuilder();
             stringBuilder.Append("\n------ Remote Control -------\n");
 
             for (int i = 0; i < _onCommands.Length; i++)
