@@ -9,6 +9,7 @@ namespace GumballStateWinner
         public IState HasQuarterState { get; }
         public IState NoQuarterState { get; }
         public IState SoldState { get; }
+        public IState WinnerState { get; }
 
         public int Count { get; private set; }
         public IState State { get; private set; }
@@ -19,6 +20,7 @@ namespace GumballStateWinner
             HasQuarterState = new HasQuarterState(this);
             NoQuarterState = new NoQuarterState(this);
             SoldState = new SoldState(this);
+            WinnerState = new WinnerState(this);
 
             Count = numberGumballs;
             State = numberGumballs > 0 ? NoQuarterState : SoldOutState;

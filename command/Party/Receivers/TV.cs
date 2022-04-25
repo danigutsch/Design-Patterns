@@ -3,7 +3,9 @@
     public class TV
     {
         private readonly string _location;
+#pragma warning disable IDE0052 // Remove unread private members
         private int _channel;
+#pragma warning restore IDE0052 // Remove unread private members
 
         public TV(string location)
         {

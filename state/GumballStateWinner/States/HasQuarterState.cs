@@ -2,6 +2,7 @@
 {
     public class HasQuarterState : IState
     {
+        private readonly Random _random = new();
         private readonly GumballMachine _gumballMachine;
 
         public HasQuarterState(GumballMachine gumballMachine)
@@ -23,7 +24,15 @@
         public void TurnCrank()
         {
             Console.WriteLine("You turned...");
-            _gumballMachine.SetState(_gumballMachine.SoldState);
+            int winner = _random.Next(10);
+            if (winner == 0 && _gumballMachine.Count > 1)
+            {
+                _gumballMachine.SetState(_gumballMachine.WinnerState);
+            }
+            else
+            {
+                _gumballMachine.SetState(_gumballMachine.SoldState);
+            }
         }
 
         public void Dispense()

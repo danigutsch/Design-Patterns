@@ -52,10 +52,10 @@ namespace Party.Invokers
 
             for (int i = 0; i < _onCommands.Length; i++)
             {
-                stringBuilder.Append("[slot " + i + "] " + _onCommands[i].GetType().Name + "    " + _offCommands[i].GetType().Name + "\n");
+                stringBuilder.Append("[slot ").Append(i).Append("] ").Append(_onCommands[i].GetType().Name).Append("    ").Append(_offCommands[i].GetType().Name).Append('\n');
             }
 
-            stringBuilder.Append("[undo] " + _undoCommand.GetType().Name + "\n");
+            stringBuilder.Append("[undo] ").Append(_undoCommand.GetType().Name).Append('\n');
 
             return stringBuilder.ToString();
         }
