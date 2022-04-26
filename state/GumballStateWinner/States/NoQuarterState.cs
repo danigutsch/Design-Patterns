@@ -30,7 +30,10 @@
             Console.WriteLine("You need to pay first");
         }
 
-        public void Refill() { }
+        public void Refill()
+        {
+            _gumballMachine.SetState(_gumballMachine.NoQuarterState);
+        }
 
         public override string ToString() => "waiting for quarter";
     }

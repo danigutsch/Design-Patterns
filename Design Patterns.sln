@@ -71,7 +71,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gumball", "state\Gumball\Gu
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GumballState", "state\GumballState\GumballState.csproj", "{01CE8D4D-CE54-4ECB-9602-521D3FBF2019}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GumballStateWinner", "state\GumballStateWinner\GumballStateWinner.csproj", "{994D0E88-799E-4016-8DED-C6967622998F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GumballStateWinner", "state\GumballStateWinner\GumballStateWinner.csproj", "{994D0E88-799E-4016-8DED-C6967622998F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "proxy", "proxy", "{36811C03-FFCF-481D-BC19-9CA5F294F8B3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gumball", "proxy\Gumball\Gumball.csproj", "{C7C9087D-B02E-48C0-A9FA-45E344C9D6A1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "combining", "combining", "{06D1E2EE-C688-4D07-9D86-E1E652937E03}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DuckSimulator", "DuckSimulator\DuckSimulator.csproj", "{97BDF14C-73DD-4C34-BAA3-A381FFC8F428}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -171,6 +179,14 @@ Global
 		{994D0E88-799E-4016-8DED-C6967622998F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{994D0E88-799E-4016-8DED-C6967622998F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{994D0E88-799E-4016-8DED-C6967622998F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7C9087D-B02E-48C0-A9FA-45E344C9D6A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7C9087D-B02E-48C0-A9FA-45E344C9D6A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7C9087D-B02E-48C0-A9FA-45E344C9D6A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7C9087D-B02E-48C0-A9FA-45E344C9D6A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97BDF14C-73DD-4C34-BAA3-A381FFC8F428}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97BDF14C-73DD-4C34-BAA3-A381FFC8F428}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97BDF14C-73DD-4C34-BAA3-A381FFC8F428}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97BDF14C-73DD-4C34-BAA3-A381FFC8F428}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -199,6 +215,8 @@ Global
 		{7152291F-D9D8-4623-984F-FD1790C04A4E} = {8C8E6A77-DB16-4018-A14F-59322B74167B}
 		{01CE8D4D-CE54-4ECB-9602-521D3FBF2019} = {8C8E6A77-DB16-4018-A14F-59322B74167B}
 		{994D0E88-799E-4016-8DED-C6967622998F} = {8C8E6A77-DB16-4018-A14F-59322B74167B}
+		{C7C9087D-B02E-48C0-A9FA-45E344C9D6A1} = {36811C03-FFCF-481D-BC19-9CA5F294F8B3}
+		{97BDF14C-73DD-4C34-BAA3-A381FFC8F428} = {06D1E2EE-C688-4D07-9D86-E1E652937E03}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EF99EADC-987C-44EB-94A2-2640E2118059}

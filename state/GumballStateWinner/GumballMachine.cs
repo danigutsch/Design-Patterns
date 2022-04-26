@@ -59,7 +59,7 @@ namespace GumballStateWinner
         public void Refill(int count)
         {
             Count += count;
-            Console.WriteLine($"The gumball machine was just refilled; it's new count is: {Count}");
+            Console.WriteLine($"The gumball machine was just refilled; its new count is: {Count}");
             State.Refill();
         }
 
